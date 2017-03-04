@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="30dp"
+            android:text="Android ArcMenu Example" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="30dp"
+            android:text="Android ArcMenu Tutorial" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="30dp"
+            android:text="Android Circular Animated Menu" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:paddingBottom="150dp"
+            android:paddingRight="16dp"
+            android:paddingTop="150dp"
+            android:text="Android Circular Menu Example" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="30dp"
+            android:text="Android Rounded Icon Menu" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="30dp"
+            android:text="Android ArcMenu Example" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="30dp"
+            android:text="Android Best Menu Tutorial" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="30dp"
+            android:text="Android Best ArcMenu Example" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="30dp"
+            android:text="Android ArcMenu Example" />
+    </LinearLayout>
+
+    <com.sa90.materialarcmenu.ArcMenu
+        android:id="@+id/arcmenu_android_example_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu_color="#0fb33d"
+        app:menu_open="arc_right"
+        app:menu_scr="@mipmap/ic_launcher">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_arc_menu_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_dialog_info"
+            app:backgroundTint="#0fb33d" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_arc_menu_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_dialog_alert"
+            app:backgroundTint="#0fb33d" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_arc_menu_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_dialog_email"
+            app:backgroundTint="#0fb33d" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_arc_menu_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@android:drawable/ic_dialog_map"
+            app:backgroundTint="#0fb33d" />
+
+    </com.sa90.materialarcmenu.ArcMenu>
+</RelativeLayout>
